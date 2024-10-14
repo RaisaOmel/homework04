@@ -64,6 +64,12 @@ a:hover{
     
 }
 
+main{
+    display: flex; /*выравнивание по центру по вертикали*/
+    align-items: center; /*раскидываем по сторонам*/
+    justify-content: space-between; /* данное свойство равномерно распределяет элементы по всей строке */
+}
+
 section {
     max-width: 84%;
     height: 100vh;
